@@ -1,2 +1,2 @@
-node-object-fsm
+node-event-fsm
 ===============
