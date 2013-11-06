@@ -18,6 +18,7 @@ var update = function(func){
 };
 var factory = function(){
     var obj = new Obj(State);
+    obj.setMaxListeners(1);
     obj.on('moved', function(now, old){
         console.log('id=%d, x:%d, y:%d', obj.id, now.x, now.y);
     });
