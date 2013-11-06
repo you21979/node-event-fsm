@@ -11,4 +11,7 @@ License
 -------
 MIT
 
+Usage
+-----
+show Example Directory
 
