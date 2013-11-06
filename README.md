@@ -13,5 +13,5 @@ MIT
 
 Usage
 -----
-show Example Directory
+see Example Directory
 
