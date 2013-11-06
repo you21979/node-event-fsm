@@ -7,9 +7,7 @@ var state = function(){
 }
 
 var STATE_DIR = module.exports = {
-    'NONE' : state().on('begin', function(obj){
-        obj.spawn();
-    }),
+    'NONE' : state(),
     'SPAWN.THINKING' : state()
         .on('begin', function(obj){
             obj.onStateThink();

@@ -24,6 +24,7 @@ var factory = function(){
     obj.on('thinked', function(select){
         console.log('id=%d select:%s', obj.id, select);
     });
+    obj.spawn();
     return obj;
 }
 var main = function(){

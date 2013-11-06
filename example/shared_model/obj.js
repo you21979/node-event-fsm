@@ -20,7 +20,7 @@ var Obj = module.exports = function(tbl){
         y : 0,
         z : 0,
     };
-    this.fsm.setState('NONE', this);
+    this.fsm.restore('NONE');
 }
 util.inherits(Obj, events.EventEmitter);
 (function(proto, ext){ for(var key in ext) proto[key] = ext[key]; })
