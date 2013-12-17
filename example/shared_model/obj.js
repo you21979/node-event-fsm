@@ -15,6 +15,9 @@ var Obj = module.exports = function(tbl){
         move : 0,
     };
     this.fsm = new FSM(tbl);
+    this.fsm.on('changed', function(key, arg){
+        //console.log('changed:'+key);
+    });
     this.pos = {
         x : 0,
         y : 0,
